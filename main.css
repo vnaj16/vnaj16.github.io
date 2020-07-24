@@ -1,0 +1,100 @@
+body{
+    position: relative;
+    background: url(/Images/background-network.jpg);
+    background-size: cover;
+}
+
+.main-header{
+    position: relative;
+    min-height: 500px;
+}
+.background-overlay-header{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.25);
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#header-greeting{
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#header-name{
+    font-size: xxx-large
+}
+
+#header-career{
+    font-size: xx-large
+}
+
+.section-aboutme{
+    position: relative;
+
+    min-height: 500px;
+}
+
+.background-overlay-aboutme
+{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.40);
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section-skills{
+    position: relative;
+
+    min-height: 500px;
+}
+
+.background-overlay-skills{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.5);
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section-projects{
+    position: relative;
+
+    min-height: 500px;
+}
+
+.background-overlay-projects{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.6);
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section-contact{
+    position: relative;
+
+    min-height: 500px;
+}
+
+.background-overlay-contact{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.7);
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    position: relative;
+    min-width: 100px;
+}
+
+.background-overlay-footer{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.9);
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+}
