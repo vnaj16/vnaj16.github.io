@@ -44,6 +44,34 @@ body{
     height: 100%;
 }
 
+#div-column-image{
+    background-color: rgba(48, 100, 168, 0.4);;
+}
+
+#div-column-about{
+
+}
+
+.link-redes-sociales{
+    margin: 5;
+}
+
+#link-mygithub{
+    color: rgb(255, 255, 255);
+}
+
+#github-icon img{
+    height: 32px;
+    width: 32px;
+    background-color: white;
+}
+
+#linkedin-icon img{
+    height: 32px;
+    width: 32px;
+}
+
+
 .section-skills{
     position: relative;
 
