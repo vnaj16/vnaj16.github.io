@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, shrink-to-fit=no">
     <title>Arthur Valladares</title>
 
     <!--BOOTSTRAP CSS-->
@@ -19,7 +19,8 @@
     <!--NAVEGATION-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand ml-1" href="index.html">
-            <img src="/Images/Persona-logo-2.png" width="176" height="56" class="d-inline-block align-top" alt="" loading="lazy">
+            <img src="/Images/Persona-logo-2.png" width="176" height="56" class="d-inline-block align-top" alt=""
+                loading="lazy">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -59,12 +60,12 @@
                 </div>
                 <div class="row justify-content-center mb-3">
                     <div class="text-center justify-content-center align-self-center">
-                        <h1 id="header-name">I'm Arthur Valladares,</h1>
+                        <h1 id="header-name">I'm <span style="color: grey;">Arthur!</span></h1>
                     </div>
                 </div>
                 <div class="row justify-content-center mb-5">
                     <div class="text-center justify-content-center align-self-center">
-                        <h2 id="header-career">Systems Engineer</h2>
+                        <h2 id="header-career">Information Systems Engineer</h2>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -84,48 +85,68 @@
     <section class="section-aboutme">
         <div class="background-overlay-aboutme text-white py-5 text-center">
             <div class="container">
-                <h2>About me</h2>
                 <div class="row">
-                    <div class="col" id="div-column-image">
-                        <h3>ACA VA MI FOTO</h3>
+                    <div class="col-6 col-sm-3">
+                        <h2 class="label-section">About me</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4 d-none d-sm-block">
+                        <figure class="mypicture">
+                            <img src="/Images/Me.jpg" width="192" />
+                        </figure>
                     </div>
                     <div class="col" id="div-column-about">
-                        <h3>I'm Arthur Valladares Nole</h3>
-                        <h2>A <span>Information Systems Engineer</span> from <span>Peru</span></h2>
-                        <p>I am a leader, responsible, self-taught and fast learning person. In addition, I am very
+                        <div class="row justify-content-center">
+                            <h3>I'm Arthur Valladares Nole</h3>
+                        </div>
+
+                        <div class="row justify-content-center mt-1">
+                            <h3><span>Information Systems Engineer</span> from <span>Peru</span></h3>
+                        </div>
+
+                        <p class="text-justify mt-2 mb-3">I am a leader, responsible, self-taught and fast learning
+                            person.
+                            In addition, I am very
                             interested in Cloud Computing, Networking, DataBases, Systems and Software Development</p>
                         <div class="div-personal-info container text-light">
-                            <div class="row row-cols-2">
-                                <div class="col"> 
-                                    <span class="font-weight-bold">Age: </span>
-                                    <span>21 years</span>
+                            <div class="row mb-3">
+                                <div class="col-12 row mb-1">
+                                    <div class="col-md-4 col-lg-6 text-center d-none d-sm-block">
+                                        <span class="font-weight-bold ">Age: </span>
+                                        <span>21</span>
+                                    </div>
+                                    <div class="col-md-8 col-12 col-lg-6 text-center order-first">
+                                        <span class="font-weight-bold">Email: </span>
+                                        <span>arthur1610@live.com</span>
+                                    </div>
                                 </div>
-                                <div class="col">
-                                    <span class="font-weight-bold">Email: </span>
-                                    <span>arthur1610@live.com</span>
-                                </div>
-                                <div class="col">
-                                    <span class="font-weight-bold">Residence: </span>
-                                    <span>Peru</span>
-                                </div>
-                                <div class="col">
-                                    <a href="https://github.com/vnaj16" id="link-mygithub" target="blank">
-                                        <span class="font-weight-bold">GitHub: </span>
-                                        <span>vnaj16</span>
-                                    </a>
+
+                                <div class="col-12 row">
+                                    <div class="col-6">
+                                        <span class="font-weight-bold">Residence: </span>
+                                        <span>Peru</span>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="https://github.com/vnaj16" id="link-mygithub" target="blank">
+                                            <span class="font-weight-bold">GitHub: </span>
+                                            <span>vnaj16</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <a href="https://github.com/vnaj16" target="blank" class="link-redes-sociales" >
-                                    <figure id="github-icon">
-                                        <img src="/Images/icons/logo_github.png" alt="github icon">
-                                    </figure>
-                                </a>
-                                <a href="https://www.linkedin.com/in/arthur-javier-valladares-nole-peru/" class="link-redes-sociales"  target="blank" >
-                                    <figure id="linkedin-icon">
-                                        <img src="/Images/icons/linkedin.png" alt="linkedin icon">
-                                    </figure>
-                                </a>
+                                <div class="col-6">
+                                    <a href="https://github.com/vnaj16" title="GitHub" target="blank"
+                                        class="link-redes-sociales">
+                                        <i class="fab fa-github myicon"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/arthur-javier-valladares-nole-peru/"
+                                        class="link-redes-sociales" title="LinkedIn" target="blank">
+                                        <i class="fab fa-linkedin-in myicon"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -139,7 +160,61 @@
     <!--SKILLS-->
     <section class="section-skills">
         <div class="background-overlay-skills text-white py-5 text-center">
-            <h1>SKILLS SECTION</h1>
+            <div class="row">
+                <div class="col-sm-8">
+
+                    <h1>SKILLS SECTION</h1>
+                </div>
+
+                <div class="col-sm-4">
+                    Info
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-10 col-md-4 col-lg-2 offset-1 offset-lg-2 mb-4">
+                    <div class="card text-white bg-dark">
+                        <h3 class="card-header">
+                            WEB
+                        </h3>
+                        <div class="card-body d-none d-sm-block">
+                            <ul class="list-group list-unstyled text-left">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap 4</li>
+                                <li>ASP.NET MVC</li>
+                                <li>ASP.NET Core</li>
+                                <li>Wordpress</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-4 col-lg-2 offset-1 mb-4">
+                    <div class="card text-white bg-dark">
+                        <h3 class="card-header">
+                            LANGUAGES
+                        </h3>
+                        <div class="card-body d-none d-sm-block">
+                            <ul class="list-group list-unstyled text-left">
+                                <li>C#</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-4 col-lg-2 offset-1 mb-4">
+                    <div class="card text-white bg-dark">
+                        <h3 class="card-header">
+                            DESKTOP
+                        </h3>
+                        <div class="card-body d-none d-sm-block">
+                            <ul class="list-group list-unstyled text-left">
+                                <li>WPF</li>
+                                <li>WinForms</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--SKILLS-->
@@ -156,7 +231,7 @@
     <section class="section-contact">
         <div class="background-overlay-contact text-white py-5 text-center">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <h3>Contacto</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae accusantium numquam tempora
@@ -182,8 +257,8 @@
                                 <textarea name="" id="" cols="30" rows="5" placeholder="Ingresa tu mensaje"
                                     class="form-control"></textarea>
                             </div>
-                            <button class="btn btn-primary btn-lg btn-block">
-                                Send Your Message
+                            <button class="btn btn-outline-secondary btn-lg text-white">
+                                Envía tu mensaje
                             </button>
                         </form>
                     </div>
@@ -194,10 +269,14 @@
     <!--CONTACT-->
 
     <!--FOOTER-->
-    <footer>
+    <footer class="bg-dark">
         <div class="background-overlay-footer text-white text-center">
             <div class="container p-3 text-white text-center">
-                <p>Arthur Valladares Nole - Perú - Copyright &copy; 2020</p>
+                <div class="row">
+                    <div class="col">
+                        <p>Arthur Valladares Nole - Perú - Copyright &copy; 2020</p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -213,6 +292,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/71f0f9eb11.js" crossorigin="anonymous"></script>
     <!--BOOTSTRAP JS-->
 </body>
 

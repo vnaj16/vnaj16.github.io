@@ -35,6 +35,15 @@ body{
     min-height: 500px;
 }
 
+.label-section{
+
+    margin-bottom: 25px;
+}
+
+.mypicture{
+    width: 60px;
+}
+
 .background-overlay-aboutme
 {
     position: absolute;
@@ -44,16 +53,20 @@ body{
     height: 100%;
 }
 
-#div-column-image{
-    background-color: rgba(48, 100, 168, 0.4);;
-}
-
-#div-column-about{
-
-}
 
 .link-redes-sociales{
-    margin: 5;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.myicon{
+    font-size: 32px; 
+    color: white;
+}
+
+.myicon:hover{
+    font-size: 36px; 
+    color: gray;
 }
 
 #link-mygithub{
@@ -75,7 +88,7 @@ body{
 .section-skills{
     position: relative;
 
-    min-height: 500px;
+    min-height: 800px;
 }
 
 .background-overlay-skills{
@@ -85,6 +98,7 @@ body{
     width: 100%;
     height: 100%;
 }
+
 
 .section-projects{
     position: relative;
