@@ -6,10 +6,9 @@ body{
 
 .main-header{
     position: relative;
-    min-height: 500px;
 }
 .background-overlay-header{
-    position: absolute;
+    position: relative;
     background:rgba(0, 0, 0, 0.25);
     top: 0; left: 0;
     width: 100%;
@@ -32,7 +31,6 @@ body{
 .section-aboutme{
     position: relative;
 
-    min-height: 500px;
 }
 
 .label-section{
@@ -46,7 +44,7 @@ body{
 
 .background-overlay-aboutme
 {
-    position: absolute;
+    position: relative;
     background:rgba(0, 0, 0, 0.40);
     top: 0; left: 0;
     width: 100%;
@@ -88,11 +86,10 @@ body{
 .section-skills{
     position: relative;
 
-    min-height: 800px;
 }
 
 .background-overlay-skills{
-    position: absolute;
+    position: relative;
     background:rgba(0, 0, 0, 0.5);
     top: 0; left: 0;
     width: 100%;
@@ -103,11 +100,10 @@ body{
 .section-projects{
     position: relative;
 
-    min-height: 500px;
 }
 
 .background-overlay-projects{
-    position: absolute;
+    position: relative;
     background:rgba(0, 0, 0, 0.6);
     top: 0; left: 0;
     width: 100%;
@@ -116,12 +112,10 @@ body{
 
 .section-contact{
     position: relative;
-
-    min-height: 500px;
 }
 
 .background-overlay-contact{
-    position: absolute;
+    position: relative;
     background:rgba(0, 0, 0, 0.7);
     top: 0; left: 0;
     width: 100%;
@@ -134,7 +128,7 @@ footer{
 }
 
 .background-overlay-footer{
-    position: absolute;
+    position: relative;
     background:rgba(0, 0, 0, 0.9);
     top: 0; left: 0;
     width: 100%;
