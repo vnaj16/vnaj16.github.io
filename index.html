@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, shrink-to-fit=no">
-    <title>Arthur Valladares</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/711/711284.svg">
+    <title>Arthur Valladares' Portfolio</title>
 
     <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--BOOTSTRAP CSS-->
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--My CSS-->
     <link rel="stylesheet" href="main.css">
@@ -30,19 +34,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#sectionhome">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#aboutme">About me</a>
+                    <a class="nav-link" href="#sectionaboutme">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="#sectionskills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#sectionprojects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#sectioncontact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -50,7 +54,7 @@
     <!--NAVEGATION-->
 
     <!--HEADER-->
-    <header class="main-header" id="home">
+    <header class="main-header" id="sectionhome">
         <div class="background-overlay-header text-white py-5">
             <div class="container">
                 <div class="row justify-content-center mb-4">
@@ -70,7 +74,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="text-center justify-content-center align-self-center">
-                        <a href="#contact" class="btn btn-outline-secondary btn-lg text-white">
+                        <a href="#contact" id="buttonContactMe" class="btn btn-outline-secondary btn-lg text-white">
                             Contact me
                         </a>
                     </div>
@@ -82,7 +86,7 @@
     <!--HEADER-->
 
     <!--ABOUT ME-->
-    <section class="section-aboutme" id="aboutme">
+    <section class="section-aboutme" id="sectionaboutme">
         <div class="background-overlay-aboutme text-white py-5 text-center">
             <div class="container">
                 <div class="row">
@@ -95,11 +99,11 @@
                     <div class="card mb-3 col-10 border-light">
                         <div class="row no-gutters">
                             <div class="col-md-3 d-none d-sm-block align-middle">
-                                <img src="/Images/Me.jpg" class="card-img img-fluid mb-4 mt-4" alt="..."
+                                <img src="/Images/Me.jpg" id="myimageAboutme" class="card-img img-fluid mb-4 mt-4" alt="..."
                                     style="max-height: 256px;">
                             </div>
                             <div class="col-md-9">
-                                <div class="card-body">
+                                <div class="card-body" id="cardAboutme">
                                     <h3 class="card-title" title="Soy Arthur Valladares Nole">I'm Arthur Valladares Nole
                                     </h3>
                                     <h4 title="Ingeniero de Sistemas de Información de Perú"><span>Information Systems
@@ -161,7 +165,7 @@
     <!--ABOUT ME-->
 
     <!--SKILLS-->
-    <section class="section-skills" id="skills">
+    <section class="section-skills" id="sectionskills">
         <div class="background-overlay-skills text-white py-5 text-center">
             <div class="container">
                 <div class="row ">
@@ -170,14 +174,14 @@
                     </div>
 
                     <div class="col-2 offset-sm-2 offset-1">
-                        <a class="btn" title="info" data-toggle="modal" data-target="#skillsModal">
+                        <a class="btn" id="infoSkills" title="info" data-toggle="modal" data-target="#skillsModal">
                             <i class="fas fa-info-circle fa-2x"></i>
                         </a>
                     </div>
                 </div>
                 <div class="row mt-3 justify-content-center">
                     <div class="col-10 col-md-5 col-lg-4 mb-4">
-                        <div class="card text-white bg-dark">
+                        <div class="card text-white bg-dark" id="cardWebSkills"> 
                             <a class="card-header btn text-white" data-toggle="collapse" href="#collapseweb"
                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                 WEB
@@ -197,7 +201,7 @@
                         </div>
                     </div>
                     <div class="col-10 col-md-5 col-lg-4 mb-4">
-                        <div class="card text-white bg-dark">
+                        <div class="card text-white bg-dark"  id="cardLanguagesSkills">
                             <a class="card-header btn text-white" data-toggle="collapse" href="#collapselanguages"
                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                 LANGUAGES
@@ -215,7 +219,7 @@
                         </div>
                     </div>
                     <div class="col-10 col-md-5 col-lg-4 mb-4">
-                        <div class="card text-white bg-dark">
+                        <div class="card text-white bg-dark"  id="cardDesktopSkills">
                             <a class="card-header btn text-white" data-toggle="collapse" href="#collapsedesktop"
                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                 DESKTOP
@@ -233,7 +237,7 @@
                 </div>
                 <div class="row mt-3 justify-content-center">
                     <div class="col-10 col-md-4 col-lg-4 mb-4">
-                        <div class="card text-white bg-dark">
+                        <div class="card text-white bg-dark"  id="cardDbSkills">
                             <a class="card-header btn text-white" data-toggle="collapse" href="#collapsedb"
                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                 DATABASES
@@ -251,7 +255,7 @@
                         </div>
                     </div>
                     <div class="col-10 col-md-4 col-lg-4 mb-4">
-                        <div class="card text-white bg-dark">
+                        <div class="card text-white bg-dark"  id="cardMobileSkills">
                             <a class="card-header btn text-white" data-toggle="collapse" href="#collapsemobile"
                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                 MOBILE
@@ -266,7 +270,7 @@
                         </div>
                     </div>
                     <div class="col-10 col-md-4 col-lg-4 mb-4">
-                        <div class="card text-white bg-dark">
+                        <div class="card text-white bg-dark"  id="cardOtherSkills">
                             <a class="card-header btn text-white" data-toggle="collapse" href="#collapseother"
                                 role="button" aria-expanded="false" aria-controls="collapseExample">
                                 ANOTHER
@@ -304,10 +308,23 @@
                 </div>
                 <div class="modal-body">
                     <ul class="list-group list-unstyled text-left">
-                        <li class="mb-2" title="Estoy en tutoriales, cursos, libros, etc. o tengo poca teoría o práctica."><span class="badge badge-success">LEARNING</span> : I'm in tutorials, courses, books, etc. or I have little theory or practice.</li>
-                        <li class="mb-2" title="Ya he realizado o estoy realizando pequeños trabajos, proyectos o demos para practicar lo aprendido."><span class="badge badge-warning">KNOWN</span> : I've already done or I'm doing small jobs, projects or demos to practice what I've learned.</li>
-                        <li class="mb-2" title="Ya he realizado trabajos o proyectos reales, que hayan dado valor a los demás. Además, cuento con una buena base teórica."><span class="badge badge-primary">LEARNED</span> : I've already done real work or projects that have given value to others. In addition, I have a good theoretical base.</li>
-                        <li class="mb-2" title="Llevo minimo 2 años seguidos trabajando con esto y ya he hecho varios trabajos o proyectos reales, con buenas practicas y de la mejor manera."><span class="badge badge-danger">MASTERED</span> : I have been working with this for at least 2 years in a row and I've already done several real jobs or projects, with good practices and in the best way.</li>
+                        <li class="mb-2"
+                            title="Estoy en tutoriales, cursos, libros, etc. o tengo poca teoría o práctica."><span
+                                class="badge badge-success">LEARNING</span> : I'm in tutorials, courses, books, etc. or
+                            I have little theory or practice.</li>
+                        <li class="mb-2"
+                            title="Ya he realizado o estoy realizando pequeños trabajos, proyectos o demos para practicar lo aprendido.">
+                            <span class="badge badge-warning">KNOWN</span> : I've already done or I'm doing small jobs,
+                            projects or demos to practice what I've learned.</li>
+                        <li class="mb-2"
+                            title="Ya he realizado trabajos o proyectos reales, que hayan dado valor a los demás. Además, cuento con una buena base teórica.">
+                            <span class="badge badge-primary">LEARNED</span> : I've already done real work or projects
+                            that have given value to others. In addition, I have a good theoretical base.</li>
+                        <li class="mb-2"
+                            title="Llevo minimo 2 años seguidos trabajando con esto y ya he hecho varios trabajos o proyectos reales, con buenas practicas y de la mejor manera.">
+                            <span class="badge badge-danger">MASTERED</span> : I have been working with this for at
+                            least 2 years in a row and I've already done several real jobs or projects, with good
+                            practices and in the best way.</li>
                     </ul>
                 </div>
                 <div class="modal-footer">
@@ -320,12 +337,13 @@
     <!--SKILLS-->
 
     <!--PROJECTS-->
-    <section class="section-projects" id="projects">
+    <section class="section-projects" id="sectionprojects">
         <div class="background-overlay-projects text-white text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-3 text-left">
-                        <h1>Projects</h1> <p class="font-italic">In Building...</p>
+                        <h1>Projects</h1>
+                        <p class="font-italic">In Building...</p>
                     </div>
 
                 </div>
@@ -363,12 +381,13 @@
     <!--PROJECTS-->
 
     <!--CONTACT-->
-    <section class="section-contact" id="contact">
+    <section class="section-contact" id="sectioncontact">
         <div class="background-overlay-contact text-white py-5 text-center">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
-                        <h3>Contact</h3> <p class="font-italic">In Building...</p>
+                        <h3>Contact</h3>
+                        <p class="font-italic">In Building...</p>
                         <form action="">
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
@@ -426,6 +445,106 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/71f0f9eb11.js" crossorigin="anonymous"></script>
     <!--BOOTSTRAP JS-->
+
+    <script>
+        //Smooth Appear
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2500,
+            origin: 'bottom'
+        });
+        sr.reveal('#buttonContactMe', {
+            duration: 5000,
+            origin: 'bottom'
+        });
+        sr.reveal('#header-name > span', {
+            duration: 2500,
+            origin: 'top',
+            delay: 500
+        });myimageAboutme
+        sr.reveal('#myimageAboutme', {
+            duration: 3000,
+            origin: 'right',
+            distance: '25px',
+            viewFactor: 0.2
+        });
+        sr.reveal('#cardAboutme > h3', {
+            duration: 3000,
+            origin: 'right',
+            distance: '50px'
+        });
+        sr.reveal('#cardAboutme > h4', {
+            duration: 3000,
+            origin: 'left',
+            distance: '50px',
+            delay:1000
+        });
+        sr.reveal('#cardAboutme > p', {
+            duration: 3000,
+            origin: 'left',
+            distance: '50px',
+            delay:2000
+        });
+        sr.reveal('#cardAboutme > .row', {
+            duration: 4000,
+            origin: 'bottom',
+            distance: '50px',
+            delay:3000
+        });
+        sr.reveal('#infoSkills', {
+            duration: 3000,
+            origin: 'top',
+            distance: '50px',
+            delay:1500
+        });
+        sr.reveal('#cardWebSkills', {
+            duration: 2000,
+            origin: 'left',
+            distance: '50px',
+            delay:250
+        });
+        sr.reveal('#cardLanguagesSkills', {
+            duration: 2000,
+            origin: 'right',
+            distance: '50px',
+            delay:300
+        });
+        sr.reveal('#cardDesktopSkills', {
+            duration: 2000,
+            origin: 'left',
+            distance: '50px',
+            delay:350
+        });
+        sr.reveal('#cardDbSkills', {
+            duration: 2000,
+            origin: 'right',
+            distance: '50px',
+            delay:400
+        });
+        sr.reveal('#cardMobileSkills', {
+            duration: 2000,
+            origin: 'left',
+            distance: '50px',
+            delay:450
+        });
+        sr.reveal('#cardOtherSkills', {
+            duration: 2000,
+            origin: 'right',
+            distance: '50px',
+            delay:500
+        });
+
+        //Smooth Scroll //Esto generar un bug a los skills, ver si se pone un condicional
+        document.querySelectorAll('a[href^="#section"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
